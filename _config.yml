@@ -1,0 +1,14 @@
+title: Anirudh Desh Shankar
+email: bayesft@gmail.com
+description: Personal website
+url: https://deshcrete.github.io
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
