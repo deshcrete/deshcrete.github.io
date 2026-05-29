@@ -7,19 +7,20 @@ title: Home
 
 I study mathematics and computer science at the University of Bristol. I am broadly interested in AI safety, functional programming, abstract algebra and statistics.
 
-## What I'm Up To
+## What I'm Up To Currently
 
-- I am formalising Property-Based Testing and using LLMs as learned priors to improve performance as part of an internship run by the [**Programming Languages Research Group**](https://plrg-bristol.github.io/) at University of Bristol.
+- I am formalising Property-Based Testing and using LLMs as learned priors to improve performance as part of an internship run by the [*Programming Languages Research Group*](https://plrg-bristol.github.io/) at University of Bristol.
 
-- Conducting research funded by [**Coeffecient Giving**](https://coefficientgiving.org/) to understand supervised fine-tuning through a bayesian perspective to investigate emergent misalignment and investigating priors in LLMs. 
+- Conducting research funded by [*Coeffecient Giving*](https://coefficientgiving.org/) to understand supervised fine-tuning through a bayesian perspective to investigate emergent misalignment and investigating priors in LLMs. 
 
-- Facilitating the Dialemmas and Dangers of AI at [**Leaf**](https://leaf.courses/) especially working on enhancing the technical facets of the course.
+- Facilitating the Dialemmas and Dangers of AI at [*Leaf*](https://leaf.courses/) especially working on enhancing the technical facets of the course.
 
 ## Things I Have Done
 
-- Founded and currently running the Bristol AI Safety Centre (BAISC)
+- Founded and currently running the Bristol AI Safety Centre (BAISC).
+    - Created an [intro curriculum](https://baisc.notion.site/Intro-Reading-Group-Curriculum-Winter-2025-2efd3400ff8b808fad7fe97d4461e403) for AI Safety combining both technical and governance aspects from scratch
 
-- Fellow at the [**Pathfinder Fellowship**](https://pathfinder.kairos-project.org/) for AI Safety field building
+- Fellow at the [*Pathfinder Fellowship*](https://pathfinder.kairos-project.org/) for AI Safety field building
 
 - Teaching Assistant for 1st year seminars that covered foundational CS concepts including imperative, functional, OO programming and algorithms. 
 
