@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Hi, I'm Anirdesh
+# Hi, I'm அநிர்தேஶ்; Anirdesh
 
 I study mathematics and computer science at the University of Bristol. I am broadly interested in AI safety, functional programming, abstract algebra and statistics.
 
