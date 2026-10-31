@@ -12,3 +12,4 @@ exclude:
   - Gemfile.lock
   - vendor
   - README.md
+  - .DS_Store

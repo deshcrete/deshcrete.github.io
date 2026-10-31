@@ -4,12 +4,61 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="0yvJjjJTzwHewoe2UOO7oKeICdZ4kTBQXaccmAo0t7g" />
-  <title>{% if page.title and page.url != "/" %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% assign home = site.pages | where: "url", "/" | first %}
+  {% assign is_home = false %}{% if page.url == "/" %}{% assign is_home = true %}{% endif %}
+  <title>{% if is_home %}{{ site.title }}{% else %}{{ page.title }} — {{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 </head>
 <body>
-  <main>
-    {{ content }}
-  </main>
+  <div class="page">
+
+    <!-- Name, Tamil name and photo all come from the top of index.md -->
+    <header class="top-header">
+      {% if is_home and home.photo %}
+      <div class="photo-container">
+        <img src="{{ home.photo | relative_url }}" alt="{{ home.title }}">
+      </div>
+      {% endif %}
+      <div>
+        <h1>{{ home.title }}</h1>
+        {% if home.tamil_name %}<div class="subname">{{ home.tamil_name }}</div>{% endif %}
+        <nav class="navbar" id="navbar">
+          <a href="{{ "/" | relative_url }}" class="nav-item">About</a>
+          <!-- On the home page, a link for each "## Section" is appended here automatically -->
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      {{ content }}
+    </main>
+  </div>
+
+  {% if is_home and page.links %}
+  <div class="socials" id="socials">
+    [ {% for l in page.links %}<a href="{{ l.url }}" target="_blank">{{ l.name }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %} ]
+  </div>
+
+  <script>
+    // Add a nav link for every "## Section" heading, and put the
+    // links row (front matter `links:`) right after the intro text.
+    (function () {
+      var nav = document.getElementById('navbar');
+      var content = document.getElementById('content');
+      content.querySelectorAll('h2[id]').forEach(function (h) {
+        var a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.className = 'nav-item';
+        a.textContent = h.dataset.nav || h.textContent;
+        nav.appendChild(a);
+      });
+
+      var socials = document.getElementById('socials');
+      var firstH2 = content.querySelector('h2');
+      if (socials && firstH2) content.insertBefore(socials, firstH2);
+    })();
+  </script>
+  {% endif %}
+
 </body>
 </html>
