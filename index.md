@@ -28,7 +28,7 @@ Hi, I'm Anirdesh! I study mathematics and computer science at the University of 
 
 - Conducting research funded by [*Coefficient Giving*](https://coefficientgiving.org/) to understand the fine-tuning generalisation dynamics of LLMs using kernels. 
 
-- Facilitating the Dilemmas and Dangers of AI at [*Leaf*](https://leaf.courses/) especially working on enhancing the technical facets of the course.
+- Facilitating the Dilemmas and Dangers of AI at [*Leaf*](https://leaf.courses/). Expanded the course by adding various technical facets of the course including technical calls and created [technical upskilling materials](https://docs.google.com/document/d/1YxNYgQpy05CgsLEVAONVOK3Aor4F3KKblPEzzVVDzcY/edit?usp=sharing). 
 
 - Working with the University of Bristol security group on AI safety for federated learning
 
@@ -38,8 +38,8 @@ Hi, I'm Anirdesh! I study mathematics and computer science at the University of 
 
 - Interned with the [*Programming Languages Research Group*](https://plrg-bristol.github.io/) at University of Bristol. Worked on developing [methods](https://docs.google.com/presentation/d/1nBzzE0XWJwclbN5wNkiWbbgH8mSku9MqH1JuaPofyKA/edit?usp=sharing) for increasing the coverage of black box testing through combining property based testing and LLM priors. 
 
-- Founded and ran the Bristol AI Safety Centre (BAISC).
-    - Created an [intro curriculum](https://baisc.notion.site/Intro-Reading-Group-Curriculum-Winter-2025-2efd3400ff8b808fad7fe97d4461e403) for AI Safety combining both technical and governance aspects from scratch
+- Founded and run the Bristol AI Safety Centre (BAISC).
+    - Created an [intro curriculum](https://docs.google.com/document/d/1imF_TxVOaWe_DhhggjfDia0OrKlA4LudetSl_UEYAdw/edit?usp=sharing) for AI Safety combining both technical and governance aspects from scratch
 
 - Fellow at the [*Pathfinder Fellowship*](https://pathfinder.kairos-project.org/) for AI Safety field building
 
@@ -50,6 +50,8 @@ Hi, I'm Anirdesh! I study mathematics and computer science at the University of 
 - [Certainty in Uncertainty](https://docs.google.com/presentation/d/1XbXcuS4kU71l0va0k3wxFlM_jn-KnfmSyGO7Bqc2IS4/edit?usp=sharing): What statistics can tell us about the nature of knowledge
 
 - [Approaches to Alignment](https://docs.google.com/presentation/d/1CuUxoRV2174uDvvFSdU7-0u4_JF-mfRyE2UQ6TCmDX8/edit?usp=sharing): A non-exhaustive account of how to align LLMs
+
+- [Foundational Concepts in AI Safety](https://drive.google.com/drive/folders/128eXWHgZa6cZ1eU4jWpKRfQW4K5SC11m?usp=sharing) - set of presentations presenting topics including alignment, interp, evals, scaling and governance. 
 
 
 ## Side Projects
