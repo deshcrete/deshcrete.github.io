@@ -26,13 +26,13 @@ Hi, I'm Anirdesh! I study mathematics and computer science at the University of 
 
 ## Currently
 
-- Conducting research funded by [*Coeffecient Giving*](https://coefficientgiving.org/) to understand the fine-tuning generalisation dynamics of LLMs using kernels. 
+- Conducting research funded by [*Coefficient Giving*](https://coefficientgiving.org/) to understand the fine-tuning generalisation dynamics of LLMs using kernels. 
 
-- Facilitating the Dialemmas and Dangers of AI at [*Leaf*](https://leaf.courses/) especially working on enhancing the technical facets of the course.
+- Facilitating the Dilemmas and Dangers of AI at [*Leaf*](https://leaf.courses/) especially working on enhancing the technical facets of the course.
 
-- Working with the Univeristy of Bristol security group on AI safety for federated learning
+- Working with the University of Bristol security group on AI safety for federated learning
 
-- Completing my disseration on coordination in multi-agent LLM systems through mutual transparency
+- Completing my dissertation on coordination in multi-agent LLM systems through mutual transparency
 
 ## Experience
 
@@ -43,7 +43,7 @@ Hi, I'm Anirdesh! I study mathematics and computer science at the University of 
 
 - Fellow at the [*Pathfinder Fellowship*](https://pathfinder.kairos-project.org/) for AI Safety field building
 
-- Teaching assistant for 1st year computer science seminars and functional programming labs thought in Haskell.
+- Teaching assistant for 1st year computer science seminars and functional programming labs taught in Haskell.
 
 ## Talks
 
@@ -71,4 +71,4 @@ Hi, I'm Anirdesh! I study mathematics and computer science at the University of 
 *Benchmarking root-finding algorithms for robustness in optimization problems*
 
 - Developed computable evaluations and benchmarks on physical optics problems to test convergence and robustness of root-finding algorithms
-- Transalted various real-analysis results like rate of convergence proofs into computable metric for benchmarking
+- Translated various real-analysis results like rate of convergence proofs into computable metrics for benchmarking
